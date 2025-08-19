@@ -24,21 +24,27 @@ Built a tiny Java app with **Maven** using a **Jenkins Freestyle** job.
 ## 📂 Project Structure
 
 hello-java-maven/
+
 ├── src/
+
 │ └── main/
+
 │ └── java/
+
 │ └── HelloWorld.java
+
 └── pom.xml
 
 ---
 
 
-## 1) Created the project required files in git bash. 
+## 1. Created the project required files in git bash. 
 
   -- **`src/main/java/HelloWorld.java`**
+  
   -- pom.xml
   
-2).  Pushed to GitHub
+## 2. Pushed to GitHub
 
   -- git init
 
@@ -53,19 +59,20 @@ hello-java-maven/
   -- git push -u origin main
 
 
-3.  have set up Jenkins in a fresh Virtual machine
+## 3.  have set up Jenkins in a fresh Virtual machine
 
+   
    can access at this url http://192.168.1.9:8080 
 
 
-4.  Configured Maven in Jenkins
+## 4.  Configured Maven in Jenkins
 
-Manage Jenkins → Global Tool Configuration
+    Manage Jenkins → Global Tool Configuration
 
-Maven → Add Maven → Name: Maven-3.9.11 → ✔ Install automatically
+    Maven → Add Maven → Name: Maven-3.9.11 → ✔ Install automatically
 
 
-5.  Created the Freestyle Job
+## 5.  Created the Freestyle Job
 
 New Item → Name: hello-java-maven → Freestyle project → OK
 
@@ -87,7 +94,7 @@ New Item → Name: hello-java-maven → Freestyle project → OK
 -- Save → Build Now
 
 
-6.  Verified the build 
+## 6. Verified the build 
 
 Open Console Output
 
