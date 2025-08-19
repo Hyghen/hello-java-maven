@@ -53,18 +53,19 @@ hello-java-maven/
   -- git push -u origin main
 
 
-3) have set up Jenkins in a fresh Virtual machine
+3.  have set up Jenkins in a fresh Virtual machine
 
    can access at this url http://192.168.1.9:8080 
 
 
-4) Configured Maven in Jenkins
+4.  Configured Maven in Jenkins
 
 Manage Jenkins → Global Tool Configuration
 
 Maven → Add Maven → Name: Maven-3.9.11 → ✔ Install automatically
 
-5) Created the Freestyle Job
+
+5.  Created the Freestyle Job
 
 New Item → Name: hello-java-maven → Freestyle project → OK
 
@@ -86,7 +87,7 @@ New Item → Name: hello-java-maven → Freestyle project → OK
 -- Save → Build Now
 
 
-7) Verified the build 
+6.  Verified the build 
 
 Open Console Output
 
